@@ -1,0 +1,12 @@
+Nome tabella : Auto Usate
+
+id - intero - MEDIUMINT - PRIMARY KEY - AUTO_INCREMENT
+casa_produttrice - stringa - VARCHAR(200) - NOTNULL
+modello - stringa - VARCHAR(200) - NOTNULL
+alimentazione - stringa - VARCHAR(200) - NOTNULL
+kilometri - intero - MEDIUMINT - NULL
+anno - intero - YEAR - NULL
+colore - stringa - VARCHAR(200)
+disponibile - boolean - TINYINT - DEFAULT 1
+costo - float - FLOAT(6, 2)
+
